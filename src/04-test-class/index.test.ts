@@ -63,7 +63,7 @@ describe('BankAccount', () => {
     expect(account2.getBalance()).toBe(129);
   });
 
-  describe('blalnce', () => {
+  describe('balance', () => {
     let spy: jest.SpyInstance;
     beforeEach(() => {
       spy = jest.spyOn(lodash, 'random');
